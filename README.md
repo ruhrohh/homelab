@@ -1,4 +1,5 @@
-# abszerolabs: My Homelab
+# abszerolabs
+## My Homelab
 
 Welcome to my homelab! This is my sandbox for **computers**, **networking**, and **cybersecurity**. I use it to learn, experiment, and build projects related to my Master’s program, as well as to run fun self-hosted apps and services.
 
@@ -24,9 +25,9 @@ Welcome to my homelab! This is my sandbox for **computers**, **networking**, and
 | Name | Hardware | OS |  Application |
 |------|----------|----|--------------|
 | [Apotheosis](docs/Apotheosis.md) | Beelink Mini PC | Proxmox | Main server for projects and learning |
-| [BoreasStation](docs/BoreasStation.md) | Raspberry Pi 5 | Raspberry Pi OS | For fun and experimenting and SDR applications |
-| [CelestialScriptarium](docs/CelestialScriptarium.md) | Dell Optiplex 3080 | TrueNAS Scale |  |
-| [DemiurgeCore](docs/DemiurgeCore.md) | Dell Precision Tower 7420 | Proxmox |  |
+| [BoreasStation](docs/BoreasStation.md) | Raspberry Pi 5 | Raspberry Pi OS | For fun, experimenting and SDR applications |
+| [CelestialScriptarium](docs/CelestialScriptarium.md) | Dell Optiplex 3080 | TrueNAS Scale | Media server and NAS |
+| [DemiurgeCore](docs/DemiurgeCore.md) | Dell Precision Tower 7420 | Proxmox | AI server, currently in development, not deployed |
 
 ### Networking Hardware
 - Ubiquiti Ultra Cloud Gateway
@@ -37,29 +38,29 @@ Welcome to my homelab! This is my sandbox for **computers**, **networking**, and
 ## Core Technologies
 <details>
 <summary>Virtualization</summary>
-Proxmox on 2 machines
+Using Proxmox to manage and run VM's and LXC containers
 </details>
 <details>
 <summary>Storage</summary>
 TrueNAS Scale (dedicated), 2TB Pi drive for quick storage</details>
 <details>
 <summary>Containers & Apps</summary>
-Docker + CasaOS on the Pi + LXC Containers through Proxmox</details>
+Docker + CasaOS on the Pi, LXC Containers on Proxmox</details>
 <details>
 <summary>Remote Access</summary>
-Twingate (LXC connector) + Backup Twingate connector on Pi, Ubiquiti VPN</details>
+Twingate (LXC container) + Backup Twingate connector on Pi, Ubiquiti VPN for direct access</details>
 <details>
 <summary>Networking</summary>
-All managed through the Ubiquiti Ultra Cloud Gateway (firewall, VPN, VLANs, monitoring)</details>
+Managed through the Ubiquiti Ultra Cloud Gateway (firewall, VPN, VLANs, monitoring)</details>
 <details>
 <summary>Security</summary>
-SIEM, vulnerability scanners, Suricata</details>
+SIEM, vulnerability scanners, IDS/IPS</details>
 <details>
 <summary>Operating Systems</summary>
-Ubuntu Server for VMs unless required otherwise</details>
+I use Ubuntu Server for VMs unless required otherwise</details>
 <details>
 <summary>Databases</summary>
-Self-hosted DB in Beelink Proxmox LXC</details>
+Self-hosted DB in Proxmox LXC for various projects</details>
 <details>
 <summary>Special Hardware</summary>
 SDR dongle for radio experiments</details>
@@ -83,7 +84,7 @@ SDR dongle for radio experiments</details>
   
 ## Real World Applications
 - AI Server – n8n + Ollama workflows
-- Media Streaming – Jellyfin setup for future family use
+- Media Streaming – Jellyfin setup
 - Cloud Storage – Personal data + backups
 - Dashboards – Network/service visibility
 - Sandbox – General skill-building and experiments
@@ -92,6 +93,6 @@ SDR dongle for radio experiments</details>
 ## Lessons and Skills Learned
 - Networking & Security – firewall, VPN, VLANs, SIEM, IDS/IPS, vulnerability scanning
 - Systems Administration – virtualization, container orchestration, storage management
-- Automation & Scripting – workflow automation (n8n), infrastructure management (Ansible, LXC/Docker)
+- Automation & Scripting – workflow automation, infrastructure management
 - Monitoring & Troubleshooting – log collection, dashboards, alerting
 - Trade-offs between VMs, LXC containers, and Docker in resource usage
