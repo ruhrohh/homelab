@@ -2,7 +2,7 @@
 
 Welcome to my homelab! This is my sandbox for **computers**, **networking**, and **cybersecurity**. I use it to learn, experiment, and build projects related to my Master’s program, as well as to run fun self-hosted apps and services.
 
-I use this lab as part of my Master’s in Cybersecurity and Privacy program and for hands-on projects in malware analysis, network defense, and infrastructure automation.
+> I use this lab as part of my Master’s in Cybersecurity and Privacy program and for hands-on projects in malware analysis, network defense, and infrastructure automation.
 
 ---
 
