@@ -18,15 +18,19 @@ I use this lab as part of my Master’s in Cybersecurity and Privacy program and
 
 ## Architecture
 ![Lab Diagram](architecture-diagrams/homelab-overview.png)
-| Category       | Hardware                  | OS          |
-|----------------|------------------------|-------------|
-| Server | Beelink Mini PC | Proxmox |
-| | Dell Optiplex 3080 | TrueNAS Scale |
-| | Raspberry Pi 5 | Raspberry Pi OS |
-| | Dell Precision Tower 7420 | Proxmox |
-| Networking     | Ubiquiti Ultra Cloud Gateway (firewall, VPN, VLANs, monitoring) |          |
-| | Ubiquiti 8-port PoE Switch | |
-| | (Planned) Ubiquiti WiFi Router | |
+
+### Servers
+| Name | Hardware | OS |  Application |
+|------|----------|----|--------------|
+| [Apotheosis](docs/Apotheosis.md) | Beelink Mini PC | Proxmox | Main server for projects and learning |
+|  | Raspberry Pi 5 | Raspberry Pi OS |  |
+|  | Dell Optiplex 3080 | TrueNAS Scale |  |
+|  | Dell Precision Tower 7420 | Proxmox |  |
+
+### Networking Hardware
+- Ubiquiti Ultra Cloud Gateway
+- Ubiquiti 8-port PoE Switch
+- (Planned) Ubiquiti WiFi Router
 
 
 ## Core Technologies
