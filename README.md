@@ -44,6 +44,9 @@ I use this lab as part of my Master’s in Cybersecurity and Privacy program and
 
 
 ## Services
+<details>
+<summary>Services</summary>
+
 | Category       | Services                  |
 |----------------|------------------------|
 | Infrastructure & Management | CasaOS, Portainer, Dashy, Ubiquiti apps, Twingate, ProtonVPN, Gluetun        |
@@ -52,6 +55,7 @@ I use this lab as part of my Master’s in Cybersecurity and Privacy program and
 | Security | Pi-hole, Wazuh, Suricata, OpenVAS |
 | Web & Monitoring | Nginx, Grafana, Prometheus |
 | Other Experiments | (various apps for testing/learning) |
+</details>
 
 
 ## Projects
