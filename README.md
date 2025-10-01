@@ -1,4 +1,4 @@
-# My Homelab
+# abszerolabs: My Homelab
 
 Welcome to my homelab! This is my sandbox for **computers**, **networking**, and **cybersecurity**. I use it to learn, experiment, and build projects related to my Master’s program, as well as to run fun self-hosted apps and services.
 
@@ -23,9 +23,9 @@ I use this lab as part of my Master’s in Cybersecurity and Privacy program and
 | Name | Hardware | OS |  Application |
 |------|----------|----|--------------|
 | [Apotheosis](docs/Apotheosis.md) | Beelink Mini PC | Proxmox | Main server for projects and learning |
-|  | Raspberry Pi 5 | Raspberry Pi OS |  |
-|  | Dell Optiplex 3080 | TrueNAS Scale |  |
-|  | Dell Precision Tower 7420 | Proxmox |  |
+| [BoreasStation](docs/BoreasStation.md) | Raspberry Pi 5 | Raspberry Pi OS |  |
+| [CelestialScriptarium](docs/CelestialScriptarium.md) | Dell Optiplex 3080 | TrueNAS Scale |  |
+| [DemiurgeCore](docs/DemiurgeCore.md) | Dell Precision Tower 7420 | Proxmox |  |
 
 ### Networking Hardware
 - Ubiquiti Ultra Cloud Gateway
