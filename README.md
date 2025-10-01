@@ -13,6 +13,7 @@ Welcome to my homelab! This is my sandbox for **computers**, **networking**, and
 - [Projects](#projects)
 - [Real World Applications](#real-world-applications)
 - [Lessons and Skills Learned](#lessons-and-skills-learned)
+- [Hardware](#hardware)
 
 ---
 
@@ -23,7 +24,7 @@ Welcome to my homelab! This is my sandbox for **computers**, **networking**, and
 | Name | Hardware | OS |  Application |
 |------|----------|----|--------------|
 | [Apotheosis](docs/Apotheosis.md) | Beelink Mini PC | Proxmox | Main server for projects and learning |
-| [BoreasStation](docs/BoreasStation.md) | Raspberry Pi 5 | Raspberry Pi OS |  |
+| [BoreasStation](docs/BoreasStation.md) | Raspberry Pi 5 | Raspberry Pi OS | For fun and experimenting and SDR applications |
 | [CelestialScriptarium](docs/CelestialScriptarium.md) | Dell Optiplex 3080 | TrueNAS Scale |  |
 | [DemiurgeCore](docs/DemiurgeCore.md) | Dell Precision Tower 7420 | Proxmox |  |
 
@@ -35,27 +36,35 @@ Welcome to my homelab! This is my sandbox for **computers**, **networking**, and
 
 ## Core Technologies
 <details>
-<summary>Click to expand</summary>
-
-| Category       | Services                  |
-|----------------|------------------------|
-| Virtualization | Proxmox on 2 machines |
-| Storage     | TrueNAS Scale (dedicated), 2TB Pi drive for quick storage |
-| Containers & Apps       | Docker + CasaOS on the Pi + LXC Containers through Proxmox|
-| Remote Access | Twingate (LXC connector) + Backup Twingate connector on Pi, Ubiquiti VPN |
-| Networking | All managed through the Ubiquiti Ultra Cloud Gateway (firewall, VPN, VLANs, monitoring) |
-| Security | SIEM, vulnerability scanners, Suricata |
-| Operating Systems | Ubuntu Server for VMs unless required otherwise |
-| Databases | Self-hosted DB in Beelink Proxmox LXC |
-| Special Hardware | SDR dongle for radio experiments |
+<summary>Virtualization</summary>
+Proxmox on 2 machines
 </details>
-
-
+<details>
+<summary>Storage</summary>
+TrueNAS Scale (dedicated), 2TB Pi drive for quick storage</details>
+<details>
+<summary>Containers & Apps</summary>
+Docker + CasaOS on the Pi + LXC Containers through Proxmox</details>
+<details>
+<summary>Remote Access</summary>
+Twingate (LXC connector) + Backup Twingate connector on Pi, Ubiquiti VPN</details>
+<details>
+<summary>Networking</summary>
+All managed through the Ubiquiti Ultra Cloud Gateway (firewall, VPN, VLANs, monitoring)</details>
+<details>
+<summary>Security</summary>
+SIEM, vulnerability scanners, Suricata</details>
+<details>
+<summary>Operating Systems</summary>
+Ubuntu Server for VMs unless required otherwise</details>
+<details>
+<summary>Databases</summary>
+Self-hosted DB in Beelink Proxmox LXC</details>
+<details>
+<summary>Special Hardware</summary>
+SDR dongle for radio experiments</details>
 
 ## Services
-<details>
-<summary>Services</summary>
-
 | Category       | Services                  |
 |----------------|------------------------|
 | Infrastructure & Management | CasaOS, Portainer, Dashy, Ubiquiti apps, Twingate, ProtonVPN, Gluetun        |
@@ -64,7 +73,6 @@ Welcome to my homelab! This is my sandbox for **computers**, **networking**, and
 | Security | Pi-hole, Wazuh, Suricata, OpenVAS |
 | Web & Monitoring | Nginx, Grafana, Prometheus |
 | Other Experiments | (various apps for testing/learning) |
-</details>
 
 
 ## Projects
@@ -82,3 +90,8 @@ Welcome to my homelab! This is my sandbox for **computers**, **networking**, and
 
   
 ## Lessons and Skills Learned
+- Networking & Security – firewall, VPN, VLANs, SIEM, IDS/IPS, vulnerability scanning
+- Systems Administration – virtualization, container orchestration, storage management
+- Automation & Scripting – workflow automation (n8n), infrastructure management (Ansible, LXC/Docker)
+- Monitoring & Troubleshooting – log collection, dashboards, alerting
+- Trade-offs between VMs, LXC containers, and Docker in resource usage
