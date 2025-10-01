@@ -30,6 +30,9 @@ I use this lab as part of my Master’s in Cybersecurity and Privacy program and
 
 
 ## Core Technologies
+<details>
+<summary>Click to expand</summary>
+
 | Category       | Services                  |
 |----------------|------------------------|
 | Virtualization | Proxmox on 2 machines |
@@ -41,6 +44,8 @@ I use this lab as part of my Master’s in Cybersecurity and Privacy program and
 | Operating Systems | Ubuntu Server for VMs unless required otherwise |
 | Databases | Self-hosted DB in Beelink Proxmox LXC |
 | Special Hardware | SDR dongle for radio experiments |
+</details>
+
 
 
 ## Services
