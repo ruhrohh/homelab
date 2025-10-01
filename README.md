@@ -19,7 +19,7 @@ Welcome to my homelab! This is my sandbox for **computers**, **networking**, and
 ---
 
 ## Architecture
-![Lab Diagram](architecture-diagrams/homelab-overview.png)
+![Lab Diagram](docs/network.png)
 
 ### Servers
 | Name | Hardware | OS |  Application |
