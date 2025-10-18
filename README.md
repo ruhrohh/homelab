@@ -21,10 +21,10 @@ It’s designed to evolve. Starting small and scaling over time with improved do
 | Type | Hostname | Name | Purpose |
 |------|----------|------|----------|
 | LXC |  | Twingate Connector | Secure remote access |
-| VM | | Kali Linux | Penetration testing lab |
-| VM | | SIEM Server | Centralized logging and security monitoring |
-| VM | | Windows 11 (Malware Lab) | Malware analysis & testing sandbox |
-| VM | | Ubuntu Server | General-purpose server for misc. projects |
+| VM | Polarion | Kali Linux | Penetration testing lab |
+| VM | NoctisBastion | SIEM Server | Centralized logging and security monitoring |
+| VM | Nullborne | Windows 11 (Malware Lab) | Malware analysis & testing sandbox |
+| VM | Aetherion | Ubuntu Server | General-purpose server for misc. projects |
 
 ---
 
