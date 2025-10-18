@@ -1,4 +1,4 @@
-# AbsZeroLabs Homelab
+# abszeroLabs Homelab
 
 > *A modular, self-hosted environment for cybersecurity research, automation, and experimentation.*
 
