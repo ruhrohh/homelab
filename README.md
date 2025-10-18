@@ -15,33 +15,37 @@ It’s designed to evolve. Starting small and scaling over time with improved do
 
 ### Beelink Mini PC — `Apotheosis`
 **OS:** Proxmox VE  
-**Specs:** 32GB RAM | 512 GB NVMe SSD  
+**Specs:** 32GB RAM | 512GB NVMe SSD  
 
 #### Virtual Machines & Containers
 | Type | Hostname | Name | Purpose |
 |------|----------|------|----------|
 | LXC |  | Twingate Connector | Secure remote access |
-| VM | Polarion | Kali Linux | Penetration testing lab |
-| VM | NoctisBastion | SIEM Server | Centralized logging and security monitoring |
-| VM | Nullborne | Windows 11 (Malware Lab) | Malware analysis & testing sandbox |
-| VM | Aetherion | Ubuntu Server | General-purpose server for misc. projects |
+| VM | `Polarion` | Kali Linux | Penetration testing lab |
+| VM | `NoctisBastion` | SIEM Server | Centralized logging and security monitoring |
+| VM | `Nullborne` | Windows 11 (Malware Lab) | Malware analysis & testing sandbox |
+| VM | `Aetherion` | Ubuntu Server | General-purpose server for misc. projects |
 
 ---
 
 ### Raspberry Pi 5 — `BoreasStation`
 **OS:** Raspberry Pi OS + CasaOS  
-**Access:** Raspberry Pi Connect / Twingate Connector  
+**Access:** 8GB RAM | 256GB NVMe SSD | 2TB External Drive
 
 #### Uses
 - Lightweight Docker containers  
-- SDR (Software-Defined Radio) applications  
-- CasaOS app management  
+- SDR (Software-Defined Radio) applications   
 - Experimental IoT and edge workloads  
+
+| Container | Purpose |
+|-----------|---------|
+| | |
 
 ---
 
 ### Dell OptiPlex — `Cryovast`
-**OS:** Proxmox VE  
+**OS:** Proxmox VE
+**Specs:** 32GB RAM | 1TB SSD
 
 #### Virtual Machines
 | Type | Hostname | Name | Purpose |
